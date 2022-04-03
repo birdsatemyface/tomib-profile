@@ -19,30 +19,34 @@
         <!--NAVIGATION MENU-->
         <header class="font-primary">
             <!--USE KANJI IMAGE-->
-            <h1>富 tomi</h1>
+            <h1 class="neon-text">富 tomi</h1>
             <nav>
                 <div class="dropdown">
-                    <button class="dropbtn"><a href="#about-me">About</a></button>
+                    <button class="dropbtn nav-option"><a href="#about-me">About</a></button>
                     <div class="dropdown-content">
                         <a href="#./resume.html" target="_blank">Resume</a>
                     </div>
                 </div>
                 <div class="dropdown">
-                    <button class="dropbtn"><a href="#projects">Projects</a></button>
-                    <div>
+                    <button class="dropbtn nav-option"><a href="#projects">Projects</a></button>
+                    <div class="dropdown-content">
                         <a href="./upcoming-projects.html" target="_blank">Coming Soon</a>
                     </div>
                 </div>
-                <a href="#contact-info">Contact</a>
-                <a href="#social-media">Social</a>
+                <a href="#contact-info" class="nav-option">Contact</a>
+                <a href="#social-media" class="nav-option">Social</a>
             </nav>
         </header>
 
         <!--HERO/ABOUT ME SECTION-->
         <section id="about-me" class="font-secondary">
-            <h2>About</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae provident amet aliquid eos fugit enim, pariatur possimus nisi itaque harum repellat esse dolore voluptatem corrupti quidem autem fugiat commodi?</p>
-            <p>Check Out My <a href="">Resume</a> Here</p>
+            <div>
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae provident amet aliquid eos fugit enim, pariatur possimus nisi itaque harum repellat esse dolore voluptatem corrupti quidem autem fugiat commodi? Check out my <a href="">Resume</a> here.</p>
+            </div>
+            <video playsinline autoplay muted loop poster="./assets/images/about-bkrd.png" id="about-vid">
+                <source src="./assets/images/about-bkgrd.mp4" type="video/mp4">
+            </video>
         </section>
         
         <!--PROJECTS SECTION-->
