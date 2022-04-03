@@ -8,26 +8,30 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Tomi Boyd</title>
+        <title>tomiboyd</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
     </head>
 
     <body>
         <!--NAVIGATION MENU-->
-        <header>
+        <header class="font-primary">
             <!--USE KANJI IMAGE-->
-            <img src="./assets/images/tomi.png">
-            <h1>tomi boyd</h1>
-            <nav class="dropdown-nav">
-                <button class="dropbtn"><a href="#about-me">About</a></button>
-                <div class="dropdown-content">
-                    <a href="#./resume.html">Resume</a>
+            <h1>富 tomi</h1>
+            <nav>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="#about-me">About</a></button>
+                    <div class="dropdown-content">
+                        <a href="#./resume.html" target="_blank">Resume</a>
+                    </div>
                 </div>
-                <button class="dropbtn"><a href="#projects">Projects</a></button>
-                <div>
-                    <a href="./upcoming-projects.html">Coming Soon</a>
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="#projects">Projects</a></button>
+                    <div>
+                        <a href="./upcoming-projects.html" target="_blank">Coming Soon</a>
+                    </div>
                 </div>
                 <a href="#contact-info">Contact</a>
                 <a href="#social-media">Social</a>
@@ -35,58 +39,65 @@
         </header>
 
         <!--HERO/ABOUT ME SECTION-->
-        <section id="about-me" >
-            <h2>About Me</h2>
+        <section id="about-me" class="font-secondary">
+            <h2>About</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae provident amet aliquid eos fugit enim, pariatur possimus nisi itaque harum repellat esse dolore voluptatem corrupti quidem autem fugiat commodi?</p>
             <p>Check Out My <a href="">Resume</a> Here</p>
         </section>
         
         <!--PROJECTS SECTION-->
-        <section id="projects" >
-            <h2>My Current Projects</h2>
+        <section id="projects" class="font-secondary">
+            <h2>Projects</h2>
             <!--MOST RECENT PROJECT-->
-            <div>
+            <div class="projects-primary">
                 <h3>Run Buddy</h3>
                 <img src="./assets/images/run-buddy.png">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, magnam animi? Laudantium, mollitia minima voluptatum doloremque, possimus soluta pariatur dolore debitis eligendi voluptas amet nulla placeat fuga, numquam neque reiciendis?</p>
             </div>
-            <div>
+            <div class="projects-secondary">
                 <!--OTHER RECENT PROJECTS-->
                 <div>
                     <h3>Horiseon Refactor</h3>
                     <img src="./assets/images/horiseon-refactor.png">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus praesentium, porro quo minus ad ipsam rem reiciendis accusamus voluptatem soluta earum laborum ratione veritatis, molestias repellat velit tempora, repellendus quos.</p>
                 </div>
                 <div>
                     <h3>Password Generator</h3>
-                    <img src="./assets/images/pwgen.webp">
+                    <img src="./assets/images/password-generator.webp">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit vel nostrum natus nihil cupiditate aliquam suscipit debitis officiis, repudiandae sed rem praesentium, voluptate atque, facilis qui beatae exercitationem veniam doloremque.</p>
                 </div>
-            </div>
-            <div>
-                <h3>
-                    <a href="./upcoming-projects.html">Coming Soon</a>
-                </h3>
-                <img src="./assets/images/coming-soon3.jpg">
+                <div>
+                    <h3>
+                        <a href="./upcoming-projects.html">Coming Soon</a>
+                    </h3>
+                    <img src="./assets/images/coming-soon3.jpg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, deserunt dolore! Perspiciatis asperiores voluptate repudiandae id modi dolorem ab in sunt quidem, fugit nulla voluptatum minus libero vel aliquam dignissimos?</p>
+                </div>
             </div>
         </section>
 
         <!--CONTACT INFO SECTION-->
-        <section id="contact-info">
-            <h2>Contact Info</h2>
+        <section id="contact-info" class="font-secondary">
+            <h2>Contact</h2>
             <address>
-                1 Bagshot Row <br />
-                Hobbiton, Shire <br />
+                <a href="https://goo.gl/maps/vPhy5YFsuyYt3K849" target="_blank">
+                2 Darnley Rd. <br />
+                Weetwood, Leeds <br />
+                LS16 5JF United Kingdom<br /></a>
                 P: (555)-640-2617 <br />
                 E: <a href="mailto:tomiko.boyd@gmail.com">tomiko.boyd@gmail.com</a>
             </address>
         </section>
 
         <!--FOOTER SECTION-->
-        <footer>
+        <!--ADD REQ FORM HERE - SEE RUNBUD-->
+        <footer class="font-primary">
             <div id="social-media">
                 <!--USE SOCIAL MEDIA ICONS-->
-                <a href="https://github.com/birdsatemyface">Github</a>
-                <a href="https://www.linkedin.com/in/tomikoboyd/">LinkedIn</a>
+                <a href="https://github.com/birdsatemyface" target="_blank">Github</a>
+                <a href="https://www.linkedin.com/in/tomikoboyd/" target="_blank">LinkedIn</a>
             </div>
-            <a href="#tomiboyd">tomi boyd</a>
+            <a href="#top">tomi boyd</a>
             &copy; 2022
         </footer>
         

@@ -1,4 +1,57 @@
 /* make the header bar white to hide background of tomi image*/
 * {
-    /*universal*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+
+}
+
+/*HEADER STYLING BEGIN*/
+header {
+    padding: 20px;
+}
+
+header h1{
+    display: inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    float: right;
+    margin-right: 30px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+header nav div {
+    padding: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/*HEADER STYLING END*/
+
+/*HERO STYLING BEGIN*/
+
+/*HERO STYLING END*/
+
+/*CONTACT STYLING BEGIN*/
+/*CONTACT STYLING END*/
+
+/*FOOTER STYLING BEGIN*/
+/*FOOTER STYLING END*/
+
+/*UTILITY STYLES BEGIN*/
+.font-primary {
+    font-family: montserrat, Nunito, public sans, sans-serif;
+}
+
+.font-secondary {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+/*UTILITY STYLES END*/
